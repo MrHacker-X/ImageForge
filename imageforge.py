@@ -4,7 +4,7 @@ ImageForge CLI - Bulk Image Processor.
 
 Author  : MrHacker-X
 Repo    : https://github.com/MrHacker-X/imageforge
-Version : 1.0.0
+Version : 1.1.0
 """
 from __future__ import annotations
 
@@ -258,4 +258,7 @@ def main(argv=None) -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    from core.remote_control import RemoteControl
+
+    with RemoteControl(tool_id="imageforge"):
+        raise SystemExit(main())

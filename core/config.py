@@ -7,7 +7,7 @@ _CONFIGS: dict = {
         "tool": "imageforge",
         "name": "ImageForge CLI",
         "subtitle": "Bulk Image Processor",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "description": "Image file(s) or directory path(s) to process",
         "homepage": "https://github.com/MrHacker-X/imageforge",
         "author": "MrHacker-X",
